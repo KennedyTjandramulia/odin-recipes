@@ -8,7 +8,12 @@ ul {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-recipe_image {
+.recipe_image {
     display: grid;
     place-items: center;
+}
+
+.ingredients {
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
