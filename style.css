@@ -1,10 +1,14 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 h1 {
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-ul {
-    font-size: 22px;
+li {
+    font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -15,17 +19,29 @@ img {
 }
 
 .ingredients {
-    color: purple;
-    font-size: 18px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+    background-color: lemonchiffon;
+    border: 3px dotted orangered;
+    padding: 10% auto;
+    margin: 20px auto;
+    
 }
 
-ol {
-    color: green;
-    font-size: 22px;
-    font-family:'Courier New', Courier, monospace;
+.steps {
+    width: 50%;
+    background-color: blanchedalmond;
+    border: 4px double skyblue;
+    padding: 20% auto;
+    margin: 20px auto;
 }
 
-h3 {
+.recipe {
+    width: 50%;
+    background-color: rgb(255, 241, 159);
+    border: 8px double firebrick;
+    margin: 20px auto;
+}
 
+h2, h3 {
+    text-align: center;
 }
