@@ -40,6 +40,7 @@ img {
     background-color: rgb(255, 241, 159);
     border: 8px double firebrick;
     margin: 0 auto;
+    list-style-type: none;
 }
 
 h2, h3 {
@@ -50,4 +51,21 @@ h4 {
     width: 60%;
     text-align: center;
     margin: 0 auto;
+}
+
+button {
+    background-color: lightgreen;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+#gado:hover, #babi:hover, #pizza:hover {
+    background-color: violet;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
