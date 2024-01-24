@@ -14,7 +14,7 @@ li {
 
 img {
     display: block;
-    width: 30%;
+    width: 50%;
     margin: auto;
 }
 
@@ -23,7 +23,7 @@ img {
     background-color: lemonchiffon;
     border: 3px dotted orangered;
     padding: 10% auto;
-    margin: 20px auto;
+    margin: 0 auto;
     
 }
 
@@ -32,16 +32,22 @@ img {
     background-color: blanchedalmond;
     border: 4px double skyblue;
     padding: 20% auto;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 .recipe {
     width: 50%;
     background-color: rgb(255, 241, 159);
     border: 8px double firebrick;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 h2, h3 {
     text-align: center;
+}
+
+h4 {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
 }
